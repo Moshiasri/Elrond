@@ -23,7 +23,7 @@ three_band | [.zip (12.87 gb)] (https://www.kaggle.com/c/dstl-satellite-imagery-
   
 ## Object types
 
-In a satellite image, you will find lots of different objects like roads, buildings, vehicles, farms, trees, water ways, etc. Dstl has labeled 10 different classes:
+In a satellite image, you will find lots of different objects like roads, buildings, vehicles, farms, trees, water ways, etc. We have labeled 10 different classes in Dstl:
 
  1. Buildings - large building, residential, non-residential, fuel storage facility, fortified building
  2. Misc. Manmade structures 
