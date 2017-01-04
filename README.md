@@ -36,6 +36,13 @@ In a satellite image, you will find lots of different objects like roads, buildi
  9. Vehicle Large - large vehicle (e.g. lorry, truck,bus), logistics vehicle
  10. Vehicle Small - small vehicle (car, van), motorbike
 
-Every object class is described in the form of Polygons and MultiPolygons, which are simply a list of polygons. Two different formats for these shapes are available: GeoJson and WKT. These are both open source formats for geo-spatial shapes. 
+Every object class is described in the form of Polygons and MultiPolygons, which are simply a list of polygons. There are two different formats for these shapes: GeoJson and WKT. These are both open source formats for geo-spatial shapes. 
 
-Submission has to be in the WKT format.
+The submission has to be in the WKT format. 
+
+Geo Coordinates
+
+In this provided dataset, we create a set of geo-coordinates that are in the range of x = [0,1] and y = [-1,0]. These coordinates are transformed such that we can obscure the location of where the satellite images are taken from. The images are from the same region on Earth.
+
+To utilize these images, the grid coordinates are provided of each image so we know how to scale them and align them with the images in pixels. We need the Xmax and Ymin for each image to do the scaling (provided in our grid_sizes.csv) Please refer to this [tutorial](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/details/data-processing-tutorial) on how to programmatically view the images.
+
