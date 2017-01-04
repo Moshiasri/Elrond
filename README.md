@@ -48,18 +48,18 @@ To utilize these images, the grid coordinates are provided of each image so we k
 
 ## File descriptions
 
-* train_wkt.csv - the WKT format of all the training labels
+*  ###train_wkt.csv - the WKT format of all the training labels
  * ImageId - ID of the image
  * ClassType - type of objects (1-10)
  * MultipolygonWKT - the labeled area, which is multipolygon geometry represented in WKT format 
-* three_band.zip - the complete dataset of 3-band satellite images. The three bands are in the images with file name = {ImageId}.tif.     MD5 = 7cf7bf17ba3fa3198a401ef67f4ef9b4 
-* sixteen_band.zip - the complete dataset of 16-band satellite images. The 16 bands are distributed in the images with file name =         {ImageId}_{A/M/P}.tif. MD5 = e2949f19a0d1102827fce35117c5f08a
-* grid_sizes.csv - the sizes of grids for all the images
+*  ###three_band.zip - the complete dataset of 3-band satellite images. The three bands are in the images with file name = {ImageId}.tif.     MD5 = 7cf7bf17ba3fa3198a401ef67f4ef9b4 
+*  ###sixteen_band.zip - the complete dataset of 16-band satellite images. The 16 bands are distributed in the images with file name =         {ImageId}_{A/M/P}.tif. MD5 = e2949f19a0d1102827fce35117c5f08a
+*  ###grid_sizes.csv - the sizes of grids for all the images
  * ImageId - ID of the image
  * Xmax - maximum X coordinate for the image
  * Ymin - minimum Y coordinate for the image
-* sample_submission.csv - a sample submission file in the correct format
+*  ###sample_submission.csv - a sample submission file in the correct format
  * ImageId - ID of the image
  * ClassType - type of objects (1-10)
  * MultipolygonWKT - the labeled area, which is multipolygon geometry represented in WKT format
-* train_geojson.zip - the geojson format of all the training labels (essentially these are the same information as train_wkt.csv) 
+*  ###train_geojson.zip - the geojson format of all the training labels (essentially these are the same information as train_wkt.csv) 
