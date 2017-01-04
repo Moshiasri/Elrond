@@ -40,7 +40,7 @@ Every object class is described in the form of Polygons and MultiPolygons, which
 
 The submission has to be in the WKT format. 
 
-Geo Coordinates
+## Geo Coordinates
 
 In this provided dataset, we create a set of geo-coordinates that are in the range of x = [0,1] and y = [-1,0]. These coordinates are transformed such that we can obscure the location of where the satellite images are taken from. The images are from the same region on Earth.
 
