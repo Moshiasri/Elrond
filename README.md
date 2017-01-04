@@ -7,6 +7,12 @@ File Name | Available Format
 sixteen_band | [.zip (7.30 gb)] (https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/download/sixteen_band.zip)
 three_band | [.zip (12.87 gb)] (https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/download/three_band.zip)
 
+Dstl has provides us 1km x 1km satellite images in both 3-band and 16-band formats. Our goal is to detect and classify the types of objects found in these regions. 
+
+## 3- and 16-bands images
+
+There are two types of imagery spectral content provided in these image files. The 3-band images are the traditional RGB natural color images. The 16-band images contain spectral information by capturing wider wavelength channels. This multi-band imagery is taken from the multispectral (400 – 1040nm) and short-wave infrared (SWIR) (1195-2365nm) range. All images are in GeoTiff format and might require GeoTiff viewers (such as [QGIS](http://www.qgis.org/)) to view. Please refer to the [tutorial](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/details/data-processing-tutorial) on how to programmatically view the images.
+
 ## Imagery Details
 * Sensor : WorldView 3
 * Wavebands :
