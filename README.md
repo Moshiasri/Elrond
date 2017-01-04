@@ -7,7 +7,7 @@ File Name | Available Format
 sixteen_band | [.zip (7.30 gb)] (https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/download/sixteen_band.zip)
 three_band | [.zip (12.87 gb)] (https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/download/three_band.zip)
 
-In this competition, Dstl provides you with 1km x 1km satellite images in both 3-band and 16-band formats. Your goal is to detect and classify the types of objects found in these regions. 
+Dstl has provides us 1km x 1km satellite images in both 3-band and 16-band formats. Our goal is to detect and classify the types of objects found in these regions. 
 
 ## 3- and 16-bands images
 
